@@ -1,0 +1,287 @@
+/* ===============================
+   Author: {Kat Turner}
+   Date:   {August 2024}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+    background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+    color: #4b2707;
+    font-size: 14px;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+ }
+ 
+ .container {
+    width: 924px;
+    margin: 0 auto;
+    padding:  30 px 24px;
+ }
+ 
+ 
+ 
+ /* Typography */
+ 
+ h1, h2 {
+    color: #d17f38;
+    font-size: 40px;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0;
+ }
+ 
+ h1 {
+    text-align: center;
+    padding: 20px 0 20px;
+    background: url('images/header-divider.png') bottom center no-repeat;
+ }
+ 
+ h1 em {
+    font-style: normal;
+    color: #4b2707;
+ }
+ 
+ h2 {
+    font-size: 34px;
+ }
+ 
+ h3 {
+    margin: 0;
+    
+   
+    
+    
+ }
+ 
+ p.lead {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0;
+ 
+ }
+ 
+ p {
+    margin: 0;
+ }
+ 
+ a:link {
+    color:#d17f38;
+ }
+ 
+ a:visited {
+    color: #d17f38;
+ }
+ 
+ a:hover {
+    color: #4b2707;
+ }
+ 
+ hr {
+    border: none;
+    height: 33px;
+    width: 333px;
+    margin:  30px auto;
+    background: url('images/divider.png') center center no-repeat;
+ }
+ 
+ 
+ /* Header */
+ 
+ header nav {
+    text-align: center;
+ }
+ 
+ header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 200px;
+ }
+ 
+ header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+ }
+ 
+ header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+ 
+ }
+ 
+ header ul li a:hover {
+    color: #4b2707;
+    padding-top: 20px;
+    background: url('images/tiny -catus.png') top center no-repeat;
+ }
+ 
+ header nav ul li#logo a {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background: url('images/Coyote Wash.png') center center no-repeat;
+    text-indent: -9999px;
+ }
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ /* Hero */
+
+ #hero {
+   background: #e8c04f url('images/bg-tile-yellow.gif') top left repeat;
+}
+ 
+
+#hero .container {
+   
+   
+   
+   
+
+    
+   
+ }
+
+ #hero .container img {
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
+   
+   
+ }
+ 
+ 
+ /* Welcome Story */
+ 
+ #story-excerpt {
+    width: 520px;
+    margin: right 24px;
+    float: left;
+    font-size: 16px;
+ }
+ 
+ #dark-sky {
+    background: url('images/Coyotehowl\ \(3\).png') left center no-repeat;
+    width: 240px;
+    float: left;
+    padding: 30px 0 30px 130px;
+    
+    
+ }
+
+
+ 
+ 
+ 
+ /* News & Events */
+ 
+ #articles {
+    width: 370px;
+    float: left;
+    margin: right 24 px;
+    padding: 20px;
+ }
+ 
+ #feature-image {
+    
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+
+ }
+ 
+ #reviews-events article {
+    margin: 20px 0;
+    padding-left: 55px;
+    
+ }
+
+ #reviews-events header {
+    color: #4b2707;
+    font-size: 20px;
+    padding: 10px 0;
+    
+    
+ }
+ 
+ #reviews-events section.excerpt {
+   margin-right: 55px;
+   
+    
+ }
+ 
+ #reviews-events footer {
+    font-size: 12px;
+ }
+ 
+ /* Footer */
+ 
+ footer.main {
+    background: #4b2707 url('images/bg-tile-brown.gif') top left repeat;
+    color: #f2f3ee;
+    padding:  60px 5px;
+ }
+ 
+ footer.main a:hover {
+    color: #f2f3ee;
+ }
+ 
+ #uncopyright, #credits {
+    width: 240px;
+    float: left;
+    padding: 10px 0 10px 50px;
+ }
+ 
+ #uncopyright {
+    background: url('images/icon-recycle.png') center left no-repeat;
+    
+ }
+ 
+ #credits {
+    background: url('images/icon-apple.png') center left no-repeat;
+    float: right;
+    margin: top 9 px;
+ }
+ 
+ 
+ 
+ /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+ 
+ .clearfix:after {
+     visibility: hidden;
+     display: block;
+     content: "";
+     clear: both;
+     height: 0;
+     }
+ * html .group             { zoom: 1; } /* IE6 */
+ *:first-child+html .group { zoom: 1; } /* IE7 */
+ 
+ 
+ 
+ 
+ 
+ 
